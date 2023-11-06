@@ -1,0 +1,12 @@
+<div class="aula">
+
+    <h2 [ngStyle]="{'font-size': tamanho,
+                    'font-family': fonte,
+                    'color': cor}">
+    Testando diretivas</h2>
+    <p [ngStyle]="{'color': 'blue', 'margin-top': '15px'}">Aplicando elementos dinamicamente!</p>
+    <h3 [ngClass]="classes_css">Testando diretiva de classe 1</h3>
+    <h3 [ngClass]="classes_css[0]">Testando diretiva de classe</h3>
+    <h3 [ngClass]="classe_sublinhado">Testando diretiva de classe sublinhado</h3>
+    <h3 class="titulo-sublinhado">AAAA</h3>
+</div>

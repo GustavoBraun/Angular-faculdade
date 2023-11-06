@@ -1,0 +1,11 @@
+.titulo-amarelo {
+    color: yellow;
+}
+
+.titulo-pequeno {
+    font-size: 15px;
+}
+
+.titulo-sublinhado {
+    text-decoration: underline;
+}

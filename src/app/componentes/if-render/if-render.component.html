@@ -1,0 +1,10 @@
+<div class="aula">
+
+    <div *ngIf="mostrar">
+        Estamos mostrando esse texto pois você se mostrou digno!`
+        <p *ngIf="nome === 'Elise'; else nomeNaoEncontrado">Seu nome é Elise.</p>
+    </div>
+    <ng-template #nomeNaoEncontrado>
+        <p>O nome não foi encontrado :c</p>
+    </ng-template>
+</div>
